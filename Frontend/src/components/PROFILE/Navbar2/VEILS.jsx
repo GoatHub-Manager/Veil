@@ -6,7 +6,7 @@ import {
   MoreHorizontal
 } from 'lucide-react'
 
-import prof2 from "../../assets/prof2.jpg"
+import prof2 from "../../../assets/prof2.jpg"
 
 const VEILS = () => {
   return (

@@ -3,6 +3,7 @@ import HOME from "./pages/HOME"
 import PROFILE from './pages/PROFILE'
 import REGISTER from "./pages/REGISTER"
 import LOGIN from "./pages/LOGIN"
+import NOTFOUND from "./pages/NOTFOUND"
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
             <Route path="/profile" element={<PROFILE />} />
           <Route path="/register" element={<REGISTER/>} />
           <Route path="/login" element={<LOGIN/>} />
+          <Route path="*"   element={<NOTFOUND/>}/>
         </Routes>
       </div>
     </>

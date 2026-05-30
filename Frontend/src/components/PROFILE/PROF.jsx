@@ -2,11 +2,11 @@ import React from 'react'
 import prof_page_background from '../../assets/prof_page_background.jpg'
 import prof2 from "../../assets/prof2.jpg"
 import BIO from './BIO.jsx'
-import NAV from './NAV.jsx'
+import NAV from './Navbar/NAV.jsx'
 import ABOUT from './ABOUT.jsx'
 import BADGE from './BADGE.jsx'
 import COMMUNITIES from './COMMUNITIES.jsx'
-import NAV2 from './NAV2.jsx'
+import NAV2 from './Navbar2/NAV2.jsx'
 
 const PROF = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import VEIL from './VEIL'
 import COMMUNITY from './COMMUNITY'
-import FOLLOWER from './FOLLOWER'
+import FOLLOWER from '../FOLLOWER'
 import FOLLOWING from './FOLLOWING'
 
 
